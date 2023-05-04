@@ -1,0 +1,76 @@
+.FeaturedCollection {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    .FC-h {
+        h2 {
+          text-align: center;
+          height: 61px;
+          font-family: "Greycliff CF";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 49px;
+          line-height: 125%;
+          text-align: center;
+          color: #000000;
+          margin-bottom: 20px;
+        }
+      }
+
+  .FC-container {
+    display: grid;
+
+
+    .FC-items{
+        position: relative;
+
+        .FCt-i-button{
+            position: absolute;
+            bottom: 10%;
+            width: 100%;
+            text-align: center;
+
+            p{
+                display: inline-block;
+                background-color: white;
+                border-radius: 5px;
+                padding: 10px;
+
+                &:hover{
+                    background-color: #000000;
+                    color: white;
+                    border-radius: 5px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    
+    .item1 {
+      grid-column: 1;
+      grid-row: 1;
+    }
+
+    .item2 {
+        grid-column: 1;
+        grid-row: 2;
+      }
+
+    .item3 {
+      grid-column: 2;
+      grid-row: 1 / span 2;
+    }
+
+    .item4 {
+        grid-column: 3;
+        grid-row: 1;
+      }
+
+      .item5 {
+        grid-column: 3;
+        grid-row: 2;
+      }
+  }
+}

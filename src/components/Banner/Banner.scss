@@ -1,0 +1,33 @@
+.Banner {
+  position: relative;
+
+  img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .Banner-text {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+
+    h2 {
+      width: 506px;
+      height: 95px;
+
+      font-family: "Greycliff CF";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 76px;
+      line-height: 125%;
+      margin-bottom: 10px;
+      color: #000000;
+    }
+  }
+
+  .Banner-text-below {
+    position: absolute;
+    bottom: 7%;
+    right: 4%;
+  }
+}

@@ -1,0 +1,44 @@
+.ShopWhatULove {
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  .SWL-container {
+    justify-content: space-between;
+    gap: 10%;
+
+    .SWL-child.item2 {
+      align-self: center;
+      h2 {
+        height: 61px;
+        font-family: "Greycliff CF";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 49px;
+        line-height: 125%;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 20px;
+        text-align: start;
+      }
+      p {
+        font-family: "Greycliff CF";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        color: #666666;
+        padding: 30px 0;
+      }
+      a {
+        font-family: "Greycliff CF";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        color: #000000;
+      }
+    }
+  }
+}

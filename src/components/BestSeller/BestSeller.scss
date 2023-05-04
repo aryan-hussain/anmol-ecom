@@ -1,0 +1,50 @@
+
+.BestSeller {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+  .Item-box {
+    flex-wrap: wrap;
+  }
+
+  .BS-h {
+    h2 {
+      text-align: center;
+      height: 61px;
+      font-family: "Greycliff CF";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 49px;
+      line-height: 125%;
+      text-align: center;
+      color: #000000;
+      margin-bottom: 20px;
+    }
+  }
+
+  .ITbox-items {
+    height: 547px;
+  }
+
+  .it-i-title {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 125%;
+    color: #000000;
+  }
+
+  .it-i-price {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: #000000;
+  }
+
+  .it-i-colors {
+    // width: 200px;
+    height: 40px;
+    margin-top: 20px;
+  }
+}
